@@ -12,6 +12,6 @@ Sendo assim, o aumento possível do tamanho do problema depende da complexidade 
 
 *Exponencial:* um problema exponencial segue a regra $n' = n - \log_2(k)$, ou seja, resolve no mesmo tempo um problema apenas $log_2(k)$ unidades maior do que o original.
 
-*Logarítmico:* um problema com complexidade logarítmica segue a regra $n' = n^k$, ou seja, um computador 10 vezes mais rápido pode resolver no mesmo tempo um problema $n^10$ vezes maior.
+*Logarítmico:* um problema com complexidade logarítmica segue a regra $n' = n^k$, ou seja, um computador 10 vezes mais rápido pode resolver no mesmo tempo um problema $n^{10}$ vezes maior.
 
 Assim, notamos que o aumento do tamanho do problema que pode ser resolvido no mesmo tempo por um computador mais rápido depende diretamente da complexidade do problema enfrentado.
