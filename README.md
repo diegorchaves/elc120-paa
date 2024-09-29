@@ -6,9 +6,9 @@ Sendo assim, o aumento possível do tamanho do problema depende da complexidade 
 
 *Linear:* um problema do tipo linear segue a regra tal que $n' = k * n$, onde $n$ é o tamanho do problema resolvível em um tempo $t$ no computador original, $n'$ é o novo tamanho resolvível no mesmo tempo no novo computador $k$ vezes mais rápido. Ou seja, um computador 10 vezes mais rápido, consegue resolver no mesmo tempo um problema 10 vezes maior.
 
-*Quadrático:* um problema quadrático segue a regra $n' = \frac{n}{\sqrt{k}$, ou seja, um computador 10 vezes mais rápido pode resolver no mesmo tempo um problema cerca de 3.16 vezes maior.
+*Quadrático:* um problema quadrático segue a regra $n' = \frac{n}{\sqrt{k}}$, ou seja, um computador 10 vezes mais rápido pode resolver no mesmo tempo um problema cerca de 3.16 vezes maior.
 
-*Cúbico:* um problema cúbico segue a regra $n' = \frac{n}{\sqrt[3]{k}$, ou seja, um computador 10 vezes mais rápido pode resolver no mesmo tempo um problema cerca de 2.15 vezes maior.
+*Cúbico:* um problema cúbico segue a regra $n' = \frac{n}{\sqrt[3]{k}}$, ou seja, um computador 10 vezes mais rápido pode resolver no mesmo tempo um problema cerca de 2.15 vezes maior.
 
 *Exponencial:* um problema exponencial segue a regra $n' = n - \log_2(k)$, ou seja, resolve no mesmo tempo um problema apenas $log_2(k)$ unidades maior do que o original.
 
