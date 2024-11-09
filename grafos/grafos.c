@@ -57,20 +57,26 @@ void read_graph(Graph *g, int directed)
 
 void dfs(Graph *g, Stack *stack, int start, int *visitado)
 {
+    int i, maiorGrau = 0;
     push(stack, start);
     while(!stackIsEmpty(stack)) {
         int v = pop(stack);
         if(!visitado[v]) {
             visitado[v] = 1;
-            printf("Visitando %d\n", v);
-            for(int i = 0; i < g->degree[v]; i++) {
+            //printf("Visitando %d\n", v);
+            for(i = 0; i < g->degree[v]; i++) {
                 int adj = g->edges[v][i];
                 if(!visitado[adj]) {
                     push(stack, adj);
                 }
             }
+            printf("O grau de %d eh %d\n", v, i);
+            if(i > maiorGrau) {
+                maiorGrau = i;
+            }
         }
     }
+    printf("O grau maximo do grafo eh %d\n", maiorGrau);
 }
 
 int main()
